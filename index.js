@@ -6,7 +6,7 @@ client.on('message', message => {
 
 if (!message.guild) return; 
 
-if (message.content === '+wara') { 
+if (message.content === '÷wara') { 
  if (!message.member.hasPermission("ADMINISTRATOR"))  return;
 if (message.member.voiceChannel) { 
 
@@ -83,9 +83,9 @@ if(message.channel.type === 'dm') {
 
 if (message.content.startsWith("https://discord.gg/")) {
     
-  message.author.send(` مـن دام نـا بـەس تـوش دایـنـەێ  https://discord.gg/EXCuvNd`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
+  message.author.send(` مـن دام نـا بـەس تـوش دایـنـەێ  https://discord.gg/nvPUrH7jsp`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
     
-  client.channels.get("755636700482633791").send(
+  client.channels.get("941450985811869696").send(
 `> ئـەم گـوڵـە ڕیکـلامەکـەێ کـرد: <@${message.author.id}>
 ${message.content}`)
 }
@@ -104,6 +104,6 @@ client.user.setGame(`ریکلام بـۆ مـن بـنیـرن`)
 
 
 
-client.login("");// تـۆکیـن بـوت 
+client.login("OTUyMjgwMzQ5NjI5NjQwNzg1.YizuLw.4UYPOLXLt1bY7plM1hamajdyoP0");// تـۆکیـن بـوت 
 
 ///Code By MrTiGER///
